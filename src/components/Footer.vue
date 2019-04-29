@@ -1,18 +1,23 @@
 <template>
-    <header>
-        <h1>Footer</h1>
-    </header>    
+    <footer>
+        <p>{{copyright}}</p>
+    </footer>    
 </template>
 
 <script>
 export default {
+    data() {
+        return {
+            copyright: "Copyright 2019 CK"
+        }
+    }
     
 }
 </script>
 
 <style lang="scss" scoped>
     @import "./scss/variables.scss";
-    header {
+    footer {
     background: $dark;
     height: 100px;
     }
