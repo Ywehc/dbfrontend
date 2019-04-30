@@ -10,8 +10,7 @@ export default {
         return {
             copyright: "Copyright 2019 CK"
         }
-    }
-    
+    }   
 }
 </script>
 

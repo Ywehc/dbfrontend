@@ -1,17 +1,21 @@
 <template>
      <div>
         <Feed />
-        <UserOverview />
+        <Dashboard />
+        <BoxScores />
      </div>
 </template>
 
 <script>
 import Feed from './Feed.vue'
-import UserOverview from './UserOverview.vue'
+import Dashboard from './Dashboard.vue'
+import BoxScores from './BoxScores.vue'
+
 export default {
     components: {
     Feed,
-    UserOverview
+    Dashboard,
+    BoxScores
   }    
 }
 </script>

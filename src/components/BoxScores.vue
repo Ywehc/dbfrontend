@@ -1,6 +1,6 @@
 <template>
      <div>
-         User overview goes here
+         Boxscores go here
      </div>
 </template>
 

@@ -1,24 +1,34 @@
 <template>
     <header>
-        <h1>{{title}}</h1>
+        <div class="logo-container">
+            <img src="../assets/images/stick_puck.png" alt="logo image">
+        </div>
+        <h1>Draft<span class="highlight">BOOM</span></h1>
     </header>    
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            title: 'Header'
-        }
-    }
 }
 </script>
 
 <style lang="scss" scoped>
     @import "./scss/variables.scss";
     header {
-    background: $dark;
-    height: 100px;
+        background: $lighter;
+        height: 100px;
+        display: flex;
+        font-family: $font-logo;
+    }
+    .logo-container img {
+        width: 60px;
+        margin: 10px;
+    }
+    h1 {
+        color: $darker;
+    }
+    .highlight {
+        color: $dark;
     }
 </style>
 
