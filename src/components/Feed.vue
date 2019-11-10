@@ -29,7 +29,7 @@ export default {
 <style lang="scss" scoped>
     @import "./scss/variables.scss";
     section {
-        background: $darker;
+        background: $dark;
         color: $light;
         padding: 1.5em;
         height: 30vh;
@@ -41,12 +41,14 @@ export default {
         list-style-type: none;
         padding: 0;
         border: 2px solid $lighter;
-        border-radius: 2%;        
+        border-radius: 2%;
+        background: $light;       
     }
     li {
         margin: .2em;
         padding: .2em;
+        color: $darker;
     }
-    li:nth-child(odd) { background: $dark; }
+    li:nth-child(odd) { background: $lighter; }
 
 </style>

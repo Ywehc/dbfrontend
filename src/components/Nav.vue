@@ -1,17 +1,16 @@
 <template>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>Rankings</li>
-            <li>Roster</li>
-            <li>Players</li>
-            <li>Analytics</li>
-            <li>Settings</li>
-        </ul>
+        <box-icon name='home'></box-icon>
+        <box-icon name='trophy'></box-icon>
+        <box-icon name='list-ul'></box-icon>
+        <box-icon name='user-detail' type='solid'></box-icon>
+        <box-icon name='bar-chart-square'></box-icon>
+        <box-icon name='wrench'></box-icon>
     </nav>
 </template>
 
 <script>
+import 'boxicons'
 export default {
     data() {
         return {
@@ -26,12 +25,10 @@ export default {
     @import "./scss/variables.scss";
 
     nav {
-        font-family: $font-logo;
-        margin: auto;
+        text-align: center;
+        background: $light;
     }
-    nav ul {
-        list-style-type: none;
-        display: flex;
-        padding: 0;
+    box-icon {
+        margin: 1em;
     }
 </style>

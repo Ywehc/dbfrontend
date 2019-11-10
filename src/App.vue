@@ -4,6 +4,7 @@
     <Nav />
     <Home />
     <Footer />
+
   </div>
 </template>
 
