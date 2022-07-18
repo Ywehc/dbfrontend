@@ -1,4 +1,4 @@
-# vueshares
+This is the start of a UI/frontend for a fantasy hockey platform.
 
 ## Project setup
 ```
